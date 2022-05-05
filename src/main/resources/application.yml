@@ -1,0 +1,18 @@
+server:
+  port: 8081
+
+# DataSource Config
+spring:
+  datasource:
+    db1:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/wuya?useUnicode=true&characterEncoding=utf8
+      username: root
+      password: 199975
+      type: com.alibaba.druid.pool.DruidDataSource
+    db2:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8
+      username: root
+      password: 199975
+      type: com.alibaba.druid.pool.DruidDataSource
